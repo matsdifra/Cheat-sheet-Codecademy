@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build your own Cheatsheet</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>HTML Forms</h1>
+      <nav>
+        <ul>
+          <li><a href="#tags">Form Tags</a></li>
+          <li><a href="#attributes">Form Attributes</a></li>
+        </ul>
+      </nav>
+    </header>
+      <main>
+        <div id="tags">
+        <h2>Form Tags</h2>
+        <table>
+          <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td class="code">&lt;input&gt;</td>
+            <td>Input</td>
+            <td>The input element is used to render a variety of input fields on a webpage, including text fields, checkboxes, buttons, etc.</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;label&gt;</td>
+              <td>Label</td>
+              <td>The label element provides identification for a specific &lt;input&gt;, based on matching values of the input's <b>id</b> attribute and the label's <b>for</b> attribute.
+            </tr>
+            <tr>
+              <td class="code">&lt;form&gt;</td>
+              <td>Form</td>
+              <td>The HTML &lt;form&gt; element is used to collect and send information to an external source</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;select&gt;</td>
+              <td>Select</td>
+              <td>This is used to create a dropdown list</td>
+            </tr>
+            <tr>
+                <td class="code">&lt;option&gt;</td>
+                <td>Option</td>
+                <td>One or more &lt;option&gt; Can be nested within &lt;select&gt; to create a list of choices for the dropdown list</td>
+            </tr>
+            <tr>
+              <td class="code">&lt;datalist&gt;</td>
+            <td>Datalist</td>
+            <td>This can be used to implement a search/autocomplete functionality. An &lt;input&gt; must be paired with a &lt;datalist&gt;. The &lt;input&gt;'s list value must match the value of the id of the &lt;datalist&gt;. The datalist element can store a list of &lt;option&gt;s.</td>
+          </tr>
+            <tr>
+              <td class="code">&lt;textarea&gt;</td>
+              <td>Textarea</td>
+              <td>The textarea element is used when creating a text-box for multi-line input (e.g. a comment section)</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div id="attributes">
+        <h2>Form attributes</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td class="code">type</td>
+                <td>Type</td>
+                <td>The type element determines which type of data can be typed (e.g. number, text)</td>
+            </tr>
+            <tr>
+              <td class="code">name</td>
+              <td>Name</td>
+              <td>It is the key and the value of the input, which will become the value the form submits corresponding to the key. It’s important to remember that the name is not the same as the ID in terms of form submission. The ID and the name of the input may be the same, but the value will only be submitted if the name attribute is specified.
+             </td>
+            </tr>
+            <tr>
+              <td class="code">password</td>
+              <td>Password</td>
+              <td>It allows the user to type censored text inside the field. It is used to type in sensitive information.
+              </td>
+            </tr>
+            <tr>
+                <td class="code">required</td>
+                <td>Required</td>
+                <td>It specifies that the field must include a value.</td>
+            </tr>
+            <tr>
+                <td class="code">max</td>
+                <td>Max</td>
+                <td>It specifies the maximum value for the input field.</td>
+            </tr>
+            <tr>
+                <td class="code">min</td>
+                <td>Min</td>
+                <td>It specifies the minimum value for the input field.</td>
+            </tr>
+            <tr>
+                <td class="code">maxlength</td>
+                <td>Maxlength</td>
+                <td>It specifies the maximum number of characters that can be entered into the field</td>
+            </tr>
+            <tr>
+                <td class="code">minlength</td>
+                <td>Minlegth</td>
+                <td>It specifies the minimum number of characters that can be entered into the field</td>
+            </tr>
+            <tr>
+                <td class="code">pattern</td>
+                <td>Pattern</td>
+                <td>It uses a regular expression to match against (or validate) the value of the &lt;input&gt;, when the form is submitted.</td>
+            </tr>
+          </tbody>
+          </table>
+        </div>        
+    </main>
+    <br>
+        <footer>
+          <h5> Coded by Matsdifra </h5>
+    </footer>
+  </body>
+</html>
